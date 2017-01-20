@@ -1,4 +1,4 @@
-package misc;
+package dataStructures;
 
 /**
  * Wrapper class to hold an integer and a table. Used for represent side effects

@@ -1,4 +1,4 @@
-package misc;
+package dataStructures;
 
 /**
  * Class representing a Table data structure. Essentially a Linked List

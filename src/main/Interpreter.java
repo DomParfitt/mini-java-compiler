@@ -1,5 +1,7 @@
 package main;
 
+import dataStructures.IntAndTable;
+import dataStructures.Table;
 import grammar.AssignStm;
 import grammar.CompoundStm;
 import grammar.EseqExp;
@@ -12,8 +14,6 @@ import grammar.OpExp;
 import grammar.PairExpList;
 import grammar.PrintStm;
 import grammar.Stm;
-import misc.IntAndTable;
-import misc.Table;
 
 /**
  * Class for static methods involved in interpreting code

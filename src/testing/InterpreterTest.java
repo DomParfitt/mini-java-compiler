@@ -6,8 +6,8 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import dataStructures.Table;
 import main.Interpreter;
-import misc.Table;
 
 public class InterpreterTest {
 	
