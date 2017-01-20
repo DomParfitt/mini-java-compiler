@@ -2,6 +2,7 @@ package main;
 
 import java.lang.reflect.Field;
 
+import dataStructures.Tree;
 import grammar.AssignStm;
 import grammar.CompoundStm;
 import grammar.EseqExp;
@@ -69,7 +70,12 @@ public class Runner {
 //		System.out.println("List numargs: " + Interpreter.numargs(list)); //Should be 4
 //		System.out.println("List maxargs: " + Interpreter.maxargs(list)); //Maybe 2? Actually 0
 		
-		Interpreter.interp(prog);
+//		Interpreter.interp(prog);
+		
+		Tree t1 = new Tree(null, "a", null, null);
+		Tree t2 = Tree.insertMulti(new String [] {"b", "c", "d", "e", "f", "g", "h", "i"}, t1);
+		Tree.printInOrder(t2);
+		
 	}
 	
 	
